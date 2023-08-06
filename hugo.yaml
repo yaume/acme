@@ -1,3 +1,50 @@
 baseURL: http://example.org/
-languageCode: en-us
-title: My New Hugo Site
+languageCode: fr-fr
+title: Acme Corporation
+theme: eclectic
+
+author:
+  facebook: "https://facebook.com/example"
+  twitter: " https://twitter.com/example"
+  email: "contact@example.com"
+  name: "Acme Corporation"
+  location: Mezel
+  phone: (999) 999-9999
+  hours: "Mon-Fri: 9:00AM - 6:00PM, ET"
+
+markup:
+  highlight:
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      definitionList: true
+enableEmoji: true
+menu:
+  main:
+    - identifier: about
+      name: "About"
+      url: /about
+      weight: 100
+    - identifier: contact
+      name: Contact
+      url:  /contact
+      weight: 200
+params:
+  color: "#4f46e5"
+  copyright: "Copyright &copy; 2022 Acme Corporation. All Rights Reserved"
+  footer:
+    - title: About
+      content: >
+        Acme Corporation est le premier fabricant mondial de
+        fabricant de formes numériques. Des carrés et des cercles aux triangles 
+        et aux hexagones, nous avons tout ce qu'il faut.
+        cercles, des triangles et des hexagones, nous avons tout. Parcourez notre collection de formes formes avec 
+        différentes épaisseurs et styles de lignes.
+        Nous façonnons le monde. Vous y vivez.
+
+    - title: Articles de blog récents
+      recents: blog
+      recentCount: 7
+    - tilte: Nous contacter
+      contact: true
