@@ -1,6 +1,8 @@
 ---
 title: "Tropical Triangle"
 date: 2023-08-07T10:13:48+02:00
+tags: [triangle, shape, product]
+categories: [shape, design]
 ---
 A triangle is a polygon with three edges and three vertices. It is one of the basic shapes in geometry. A triangle with vertices A, B, and C is denoted △ ABC. <!--more-->
 

@@ -1,6 +1,4 @@
 ---
-title: "Blog"
-date: 2023-08-07T10:11:20+02:00
 menu:
   main:
     name: Blog

@@ -1,6 +1,8 @@
 ---
-title: "Privacy"
-date: 2023-08-07T11:16:29+02:00
+menu:
+  footer:
+    name: Privacy Policy
+    weight: 300
 ---
 Privacy Policy
 ==============
