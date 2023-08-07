@@ -1,0 +1,18 @@
+params:
+  color: "#4f46e5"
+  copyright: "Copyright &copy; 2022 Acme Corporation. All Rights Reserved"
+  footer:
+    - title: About
+      content: >
+        Acme Corporation est le premier fabricant mondial de
+        fabricant de formes numériques. Des carrés et des cercles aux triangles 
+        et aux hexagones, nous avons tout ce qu'il faut.
+        cercles, des triangles et des hexagones, nous avons tout. Parcourez notre collection de formes formes avec 
+        différentes épaisseurs et styles de lignes.
+        Nous façonnons le monde. Vous y vivez.
+
+    - title: Articles de blog récents
+      recents: blog
+      recentCount: 7
+    - tilte: Nous contacter
+      contact: true
