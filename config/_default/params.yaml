@@ -1,4 +1,3 @@
-params:
   color: "#4f46e5"
   copyright: "Copyright &copy; 2022 Acme Corporation. All Rights Reserved"
   footer:
@@ -14,5 +13,7 @@ params:
     - title: Articles de blog récents
       recents: blog
       recentCount: 7
-    - tilte: Nous contacter
+    - title: Nous contacter
       contact: true
+    - title: Liens importants
+      menue: true

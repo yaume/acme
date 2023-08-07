@@ -1,8 +1,6 @@
-markup:
   highlight:
   goldmark:
     renderer:
       unsafe: true
     extensions:
       definitionList: true
-enableEmoji: true
