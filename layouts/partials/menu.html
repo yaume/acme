@@ -1,0 +1,21 @@
+{{with site.Menus.footer }}
+  <nav>
+    {{if $.Button}}
+      <button class="hamburger">&#9776;</button>
+    {{end}}
+    <ul>
+    {{range .}}
+      <li>
+        <a href="{{.URL}}">{{.Name | humanize}}</a>
+        {{if .HasChildren}}
+          <ul>
+            {{ range .Children }}
+              <li><a href="{{.URL}}">{{.Name | humanize}}</a></li>
+            {{ end }}
+          </ul>
+        {{end}}
+      </li>
+    {{end}}
+    </ul>
+  </nav>
+{{end}}
