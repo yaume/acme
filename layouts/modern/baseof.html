@@ -5,10 +5,10 @@
     {{with default .Summary .Description}}
       <meta name="description" content="{{.}}">
     {{end}}
-    <meta name="viewport" 
-      content="width=device-width, initial-scale=1.0" />
-    {{ $css := resources.GetMatch "index.scss" | toCSS | resources.PostCSS }}
-    <link rel="stylesheet" type="text/css" href="{{$css.Permalink}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link rel="icon" type="image/png" href="{{partialCached "favicon.png.html" $ "nothing"}}">
+    {{ $css := partialCached "index.css.html" $ "nothing"}}
+    <link rel="stylesheet" type="text/css" href="{{$css}}">
     {{$title := default site.Title .Title}}
     {{with $title}}<title>{{.}}</title>{{end}}
   </head>
@@ -16,7 +16,7 @@
      {{block "header" .}}
       <header>
       <a href="{{ site.BaseURL | relLangURL }}">
-      <img src="{{ site.BaseURL }}/image/logo.svg" alt="Acme Logo" 
+      <img src="{{partialCached "logo.svg" $ "nothing" }}" alt="Acme Logo" 
                width="48" />
           Acme Corporation
       </a>
