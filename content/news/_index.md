@@ -4,9 +4,7 @@ menu:
     name: News
     identifier: news
     weight: 120
-cascade:
-  type: modern
-type: _default
+    post: We are trending
 ---
 
 ![News](news.png){style="text-align:center"}

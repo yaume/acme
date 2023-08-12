@@ -1,6 +1,7 @@
 ---
 title: "Curve"
-date: 2023-08-07T10:14:42+02:00
+tags: [shape, product, line]
+categories: [shape, public ]
 ---
 In mathematics, a curve (also called a curved line in older texts) is, generally speaking, an object similar to a line but that need not be straight. Thus, a curve is a generalization of a line, in that it may be curved.<!--more-->
 
