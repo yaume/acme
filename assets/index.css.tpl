@@ -8,7 +8,6 @@
  * You are free to use this code on your website but beware of caveats and
  * do understand that support may be lacking where expected.
  **/
-
 {{ $color := site.Params.color | default "#4f46e5" }}
 {{ $b := substr $color -2 2 | print "0x" | int}} 
 {{ $g := substr $color -4 2 | print "0x" | int}}

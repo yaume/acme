@@ -1,7 +1,6 @@
 baseURL: http://example.org/
 languageCode: fr-fr
 title: Acme Corporation
-theme: AcmeTheme
+theme: eclectic
 enableEmoji: true
 enableGitInfo: true
-Paginate: 3
