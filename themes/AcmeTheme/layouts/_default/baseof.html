@@ -39,7 +39,7 @@
     {{end}}
      {{block "footer" .}}
       <footer class="dark">
-        {{ partialCached "menu.html" (dict "Menu" site.Menus.footer) }}
+        {{ partialCached "menu.html" (dict "Menu" site.Menus.footer) "footer"}}
         <ul>
           {{with site.Author.facebook}}
             <li>
